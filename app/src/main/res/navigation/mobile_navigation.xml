@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_social">
+
+    <fragment
+        android:id="@+id/navigation_social"
+        android:name="com.cricmahalla.ui.social.social"
+        android:label="Social"
+        tools:layout="@layout/fragment_social"/>
+    <fragment
+        android:id="@+id/navigation_tournament"
+        android:name="com.cricmahalla.ui.tournament.tournament"
+        android:label="Tournament"
+        tools:layout="@layout/fragment_tournament"/>
+    <fragment
+        android:id="@+id/navigation_liveScore"
+        android:name="com.cricmahalla.ui.liveScore.liveScore"
+        android:label="LiveScore"
+        tools:layout="@layout/fragment_live_score"/>
+    <fragment
+        android:id="@+id/navigation_teams"
+        android:name="com.cricmahalla.ui.teams.teams"
+        android:label="Teams"
+        tools:layout="@layout/fragment_teams"/>
+    <fragment
+        android:id="@+id/navigation_scorer"
+        android:name="com.cricmahalla.ui.scorer.scorer"
+        android:label="Scorer"
+        tools:layout="@layout/fragment_scorer"/>
+
+
+</navigation>

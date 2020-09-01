@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@id/navigation_social"
+        android:icon="@drawable/ic_social"
+        android:title="Social"/>
+    <item
+        android:id="@id/navigation_tournament"
+        android:icon="@drawable/ic_tournament"
+        android:title="Tournament"/>
+    <item
+        android:id="@id/navigation_liveScore"
+        android:icon="@drawable/ic_livescore"
+        android:title="LiveScore"/>
+    <item
+        android:id="@id/navigation_teams"
+        android:icon="@drawable/ic_teams"
+        android:title="Teams"/>
+    <item
+        android:id="@id/navigation_scorer"
+        android:icon="@drawable/ic_scorer"
+        android:title="Scorer"/>
+
+</menu>
