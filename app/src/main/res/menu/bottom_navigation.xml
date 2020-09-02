@@ -3,23 +3,23 @@
 
     <item
         android:id="@id/navigation_social"
-        android:icon="@drawable/ic_social"
-        android:title="Social"/>
+        android:icon="@drawable/social"
+        android:title="Social" />
     <item
         android:id="@id/navigation_tournament"
-        android:icon="@drawable/ic_tournament"
+        android:icon="@drawable/tournament"
         android:title="Tournament"/>
     <item
         android:id="@id/navigation_liveScore"
-        android:icon="@drawable/ic_livescore"
+        android:icon="@drawable/livescore"
         android:title="LiveScore"/>
     <item
         android:id="@id/navigation_teams"
-        android:icon="@drawable/ic_teams"
+        android:icon="@drawable/teams"
         android:title="Teams"/>
     <item
         android:id="@id/navigation_scorer"
-        android:icon="@drawable/ic_scorer"
+        android:icon="@drawable/scorer"
         android:title="Scorer"/>
 
 </menu>

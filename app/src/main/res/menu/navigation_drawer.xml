@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_addTournament"
+        android:title="Add Tournament"
+        android:icon="@drawable/addtournament"/>
+    <item
+        android:id="@+id/navigation_myTournament"
+        android:title="My Tournament"
+        android:icon="@drawable/mytournament"/>
+    <item
+        android:id="@+id/navigation_royalTournament"
+        android:title="Royal Tournament"
+        android:icon="@drawable/royal"/>
+    <item
+        android:id="@+id/navigation_buildYourTeam"
+        android:title="Build Your Team"
+        android:icon="@drawable/buildteam"/>
+    <item
+        android:id="@+id/navigation_bookPlayer"
+        android:title="Book A Player"
+        android:icon="@drawable/bookplayer"/>
+    <item
+        android:id="@+id/navigation_uploadPhoto"
+        android:title="Upload Photo"
+        android:icon="@drawable/uploadphoto"/>
+    <item
+        android:id="@+id/navigation_settings"
+        android:title="Settings"
+        android:icon="@drawable/settings"/>
+    <item
+        android:id="@+id/navigation_shareApp"
+        android:title="Share The App"
+        android:icon="@drawable/share"/>
+    <item
+        android:id="@+id/navigation_help"
+        android:title="Help/Contact"
+        android:icon="@drawable/help"/>
+    <item
+        android:id="@+id/navigation_rateApp"
+        android:title="Rate The App"
+        android:icon="@drawable/rateus"/>
+    <item
+        android:id="@+id/navigation_aboutUs"
+        android:title="About Us"
+        android:icon="@drawable/aboutus"/>
+
+</menu>
