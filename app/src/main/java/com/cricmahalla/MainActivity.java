@@ -8,8 +8,10 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.NavigationUI;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -25,6 +27,18 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private DrawerLayout drawerLayout;
     private ActionBarDrawerToggle toggle;
     private NavigationView navigationView;
+
+    public void logIn(View view){
+        Intent intent = new Intent(getApplicationContext(), LogInActivity.class);
+
+        startActivity(intent);
+    }
+
+    public void signUp(View view){
+        Intent intent = new Intent(getApplicationContext(), SignUpActivity.class);
+
+        startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

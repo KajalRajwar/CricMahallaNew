@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:background="#808080"
-    android:layout_height="140dp">
+    android:layout_height="140dp"
+    android:background="#808080">
 
     <ImageView
+        android:id="@+id/userImage"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitStart"
+        android:src="@drawable/user" />
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/user"
-        android:scaleType="fitStart" />
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/logIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:background="#808080"
+            android:onClick="logIn"
+            android:text="Log In"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/signUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="#808080"
+            android:onClick="signUp"
+            android:text="Sign Up"
+            android:textSize="15sp" />
+    </LinearLayout>
 
 </LinearLayout>
