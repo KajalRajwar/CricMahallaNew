@@ -34,11 +34,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         startActivity(intent);
     }
 
-    public void signUp(View view){
-        Intent intent = new Intent(getApplicationContext(), SignUpActivity.class);
-
-        startActivity(intent);
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
